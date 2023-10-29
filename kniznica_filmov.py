@@ -22,11 +22,11 @@ class Library:
         self._movie_library = list()
 
     def seed(self):
-        movie = Movie("Matrix", 1999, "scifi", 136, "Wachowski")
+        movie = Movie("Matrix", 1990, "scifi", 136, "Wachowski")
         self._movie_library.append(movie)
         movie = Movie("Jurrasic Park", 1993, "action", 127, "Spielberg")
         self._movie_library.append(movie)
-        movie = Movie("Stargate", 1994, "scifi", 128, "Oneil")
+        movie = Movie("Stargate", 1996, "scifi", 128, "Oneil")
         self._movie_library.append(movie)
 
     def print(self):
